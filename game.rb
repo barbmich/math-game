@@ -31,7 +31,7 @@ class Game
   def run_game
 
     while @player1.lives > 0 && @player2.lives > 0
-      current_player(@turn) 
+      current_player(@turn)
       self.sum_question
       @turn = !@turn
     end
